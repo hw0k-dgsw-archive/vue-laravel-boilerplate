@@ -10,8 +10,6 @@ Laravel Mix를 활용하여 만든 Vue-Laravel Boilerplate입니다.
 
 ## Installation
 
-> 1~7은 설치 부분이고, 8~10은 실행 부분입니다.
-
 1. [Composer](https://getcomposer.org/download/)를 설치합니다.
 
 2. [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)(혹은 [Yarn](https://yarnpkg.com/en/docs/install#windows-stable))을 설치합니다.
@@ -39,17 +37,36 @@ Laravel Mix를 활용하여 만든 Vue-Laravel Boilerplate입니다.
    php artisan key:generate
    ```
 
-8. 다음 명령 중 하나를 실행합니다.
+## Run App (HMR)
+
+1. 다음 명령 중 하나를 실행합니다.
 
    ```batch
    npm run hot
    yarn hot
    ```
 
-9. 다음 명령을 실행하여 서버를 구동합니다.
+2. 다음 명령을 실행하여 서버를 구동합니다.
 
    ```batch
    php artisan serve
    ```
 
-10. 콘솔에서 표시된 곳으로 접속합니다.
+3. 콘솔에서 표시된 곳으로 접속합니다.
+
+## Run App (Normal)
+
+1. 다음 명령 중 하나를 실행합니다.
+
+   ```batch
+   npm run watch
+   yarn watch
+   ```
+
+2. 다음 명령을 실행하여 서버를 구동합니다.
+
+   ```batch
+   php artisan serve
+   ```
+
+3. 콘솔에서 표시된 곳으로 접속합니다.
