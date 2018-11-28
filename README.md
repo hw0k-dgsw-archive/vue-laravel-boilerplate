@@ -4,7 +4,13 @@ A Vue-Laravel Application which was made with Laravel Mix.
 
 Laravel Mix를 활용하여 만든 Vue-Laravel Boilerplate입니다.
 
+## Update Log
+
+- 2018-11-28: HMR 기능 추가 및 기본 사용
+
 ## Installation
+
+> 1~7은 설치 부분이고, 8~10은 실행 부분입니다.
 
 1. [Composer](https://getcomposer.org/download/)를 설치합니다.
 
@@ -36,14 +42,14 @@ Laravel Mix를 활용하여 만든 Vue-Laravel Boilerplate입니다.
 8. 다음 명령 중 하나를 실행합니다.
 
    ```batch
-   npm run watch
-   yarn watch
+   npm run hot
+   yarn hot
    ```
 
-9. 다음 명령을 실행하여 `PHP Built-In` 서버를 구동합니다.
+9. 다음 명령을 실행하여 서버를 구동합니다.
 
    ```batch
-   php -S localhost:(포트 번호) -t public
+   php artisan serve
    ```
 
-10. 설정한 포트 번호로 접속합니다.
+10. 콘솔에서 표시된 곳으로 접속합니다.
